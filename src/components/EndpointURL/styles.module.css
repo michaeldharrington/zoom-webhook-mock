@@ -1,0 +1,27 @@
+input.input {
+    min-width: 400px;
+    border: 1px solid #BABACC;
+    height: 32px;
+    border-radius: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #232323;
+    padding: 0 12px;
+    width: 200px;
+    display: block;
+    margin: 16px;
+} 
+input.input::placeholder{
+    color: #747487;
+}
+input.input:hover {
+    border: 1px solid #747487;
+}
+input.input:focus {
+    border: 1px solid #0E71EB;
+}
+input.input:focus {
+    /* outline: 1px dotted rgba(0,0,0,0.2) !important; */
+    outline: 0;
+}

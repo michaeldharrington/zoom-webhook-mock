@@ -1,0 +1,34 @@
+.request {
+    padding: 8px;
+}
+
+.requestHeader {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.eventName {
+    text-transform: capitalize;
+}
+.requestButton {
+    border: 0;
+    outline: 0;
+    color: #ffffff;
+    background: #0e71eb;
+    padding: 7px 16px 8px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 14px; 
+    line-height: 17px;
+    cursor: pointer;
+    margin: 8px;
+}
+.payload>pre {
+    max-width: 100%;
+}
+.payload>pre>code {
+    margin: 8px;
+    padding: 16px;
+    border-radius: 8px;
+}

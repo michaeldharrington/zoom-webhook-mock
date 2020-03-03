@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+
+html {
+  color: #232333;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  margin: auto;
+  padding: 0;
+  max-width: 800px;
+}
+
+/* 
+nav.nav {
+  display: flex;
+}
+
+nav.nav {
+  display: flex;
+  align-items: center;
+z  justify-content: flex-end;
+  flex-wrap: wrap;
+  box-shadow: inset 0px -1px 0px #EDEDF4;
+  padding: 8px;
+  
+  height: 72px;
+  width: 100%;
+  max-width: 100%;
+  background: #ffffff;
+  flex: 1;
+  margin: 0;
+} */
+
+header.header {
+  margin: 24px 16px;
+  padding: 16px 0;
+  border-top: 1px solid #DCDFE6;
+  border-bottom: 1px solid #DCDFE6;
+}
+
+
+.Event>.eventTitle {
+  padding: 0 16px;
+  margin: 16px 0 0;
+}
+
+section>h2.eventTitle {
+  text-transform: capitalize;
+}
+
+select { 
+  text-transform: capitalize
+}
