@@ -1,14 +1,14 @@
 .infoButton {
-    border: 2px solid #0e71eb;
+    border: 1.5px solid #0e71eb;
     color: #0e71eb;
     font-weight: 600;
     font-size: 14px;
     border-radius: 100%;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 32px;
-    height: 32px;
+    /* position: fixed; */
+    /* bottom: 20px; */
+    /* right: 20px; */
+    width: 24px;
+    height: 24px;
     cursor: pointer;
     outline: 0;
 }

@@ -33,7 +33,7 @@ const Request = props => {
 }
 
 export const RequestList = props => (
-    <div>
+    <div className={styles.requestGrid}>
         {props.events.map((event, index) => (
             <Request data={event} key={index} />
         ))}

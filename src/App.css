@@ -10,9 +10,11 @@ html {
 .App {
   margin: auto;
   padding: 0;
-  max-width: 800px;
+  max-width: 1024px;
 }
-
+.App h1.title {
+  margin: 16px;
+}
 /* 
 nav.nav {
   display: flex;
