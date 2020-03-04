@@ -87,5 +87,403 @@
                 }
             }
         ]
+    },
+    {
+        "Chat Message": [
+            {
+                "event": "chat_message.sent",
+                "payload": {
+                    "account_id": "EPsdvdsgfdgxHMA",
+                    "operator": "someoperatoremail@somekindofmailservice123.com",
+                    "operator_id": "zfdgdfgdfgfp8uQ",
+                    "object": {
+                        "channel_name": "AlwaysBeCodingChannel",
+                        "date_time": "2020-02-11T22:02:11Z",
+                        "session_id": "fcffdgfgffghfghgfhghgb10",
+                        "id": "EwwwwA-87F4-222222-8CD9-FA00000E6B9",
+                        "type": "to_channel",
+                        "message": "🙌",
+                        "channel_id": "fsdgdgdgdfgdfgdfgdfgb10",
+                        "timestamp": 1581458531930
+                    }
+                }
+            },
+            {
+                "event": "chat_message.updated",
+                "payload": {
+                    "account_id": "EPsdvdsgfdgxHMA",
+                    "operator": "someoperatoremail@somekindofmailservice123.com",
+                    "operator_id": "zfdgdfgdfgfp8uQ",
+                    "object": {
+                        "channel_name": "AlwaysBeCodingChannel",
+                        "date_time": "2020-02-11T22:02:11Z",
+                        "session_id": "fcffdgfgffghfghgfhghgb10",
+                        "id": "Ell123-87F4-222222-8CD9-FA00000E6B9",
+                        "type": "to_channel",
+                        "message": "💙",
+                        "channel_id": "fsdgdgdgdfgdfgdfgdfgb10",
+                        "timestamp": 1581462008594
+                    }
+                }
+            },
+            {
+                "event": "chat_message.updated",
+                "payload": {
+                    "account_id": "EPsdvdsgfdgxHMA",
+                    "operator": "someoperatoremail@somekindofmailservice123.com",
+                    "operator_id": "zfdgdfgdfgfp8uQ",
+                    "object": {
+                        "channel_name": "AlwaysBeCodingChannel",
+                        "date_time": "2020-02-11T22:02:11Z",
+                        "session_id": "fcffdgfgffghfghgfhghgb10",
+                        "id": "Ell123-87F4-222222-8CD9-FA00000E6B9",
+                        "type": "to_channel",
+                        "message": null,
+                        "channel_id": "fsdgdgdgdfgdfgdfgdfgb10",
+                        "timestamp": 1581462008594
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "Chat Channel": [
+            {
+                "event": "chat_channel.created",
+                "payload": {
+                    "account_id": "vbbvnvAdsfe",
+                    "operator": "somememai@gmtsffjdfhail.com",
+                    "operator_id": "z8dfgdfguQrdfgdf",
+                    "object": {
+                        "name": "Delivering Happiness",
+                        "id": "6dfgdfgdg444447b0egga",
+                        "type": 1,
+                        "date_time": "2020-02-10T21:39:50Z",
+                        "timestamp": 1581370790388,
+                        "members": [
+                            {
+                                "id": "z8dfgdfguQrdfgdf",
+                                "display_name": "Maya Jung"
+                            },
+                            {
+                                "id": "sdfdsfdsKIrrCYw",
+                                "display_name": "Matt Yank"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "event": "chat_channel.updated",
+                "payload": {
+                    "account_id": "vbbvnvAdsfe",
+                    "operator": "somememai@gmtsffjdfhail.com",
+                    "operator_id": "z8dfgdfguQrdfgdf",
+                    "object": {
+                        "name": "Building Happy",
+                        "id": "6dfgdfgdg444447b0egga",
+                        "type": 1,
+                        "date_time": "2020-02-10T21:59:05Z",
+                        "timestamp": 1581371945584
+                    }
+                }
+            },
+            {
+                "event": "chat_channel.deleted",
+                "payload": {
+                    "account_id": "vbbvnvAdsfe",
+                    "operator": "somememai@gmtsffjdfhail.com",
+                    "operator_id": "z8dfgdfguQrdfgdf",
+                    "object": {
+                        "name": "Building Happy",
+                        "id": "6dfgdfgdg444447b0egga",
+                        "type": 1,
+                        "date_time": "2020-02-10T21:59:05Z",
+                        "timestamp": 1581371945584
+                    }
+                }
+            },
+            {
+                "event": "chat_channel.member_invited",
+                "payload": {
+                    "account_id": "vbbvnvAdsfe",
+                    "operator": "somememai@gmtsffjdfhail.com",
+                    "operator_id": "z8dfgdfguQrdfgdf",
+                    "object": {
+                        "name": "Delivering Happiness",
+                        "id": "6dfgdfgdg444447b0egga",
+                        "type": 1,
+                        "date_time": "2020-02-10T21:39:50Z",
+                        "timestamp": 1581370790388,
+                        "members": [
+                            {
+                                "id": "s0hhFOCYw",
+                                "display_name": "Matt Y"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "event": "chat_channel.member_joined",
+                "payload": {
+                    "account_id": "vbbvnvAdsfe",
+                    "operator": "somememai@gmtsffjdfhail.com",
+                    "operator_id": "z8dfgdfguQrdfgdf",
+                    "object": {
+                        "name": "Delivering Happiness",
+                        "id": "6dfgdfgdg444447b0egga",
+                        "type": 1,
+                        "date_time": "2020-02-10T21:39:50Z",
+                        "timestamp": 1581370790388
+                    }
+                }
+            },
+            {
+                "event": "chat_channel.member_left",
+                "payload": {
+                    "account_id": "vbbvnvAdsfe",
+                    "operator": "somememai@gmtsffjdfhail.com",
+                    "operator_id": "z8dfgdfguQrdfgdf",
+                    "object": {
+                        "name": "Delivering Happiness",
+                        "id": "6dfgdfgdg444447b0egga",
+                        "type": 1,
+                        "date_time": "2020-02-10T21:39:50Z",
+                        "timestamp": 1581370790388
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "Chatbot": [
+            {
+                "event": "bot_notification",
+                "payload": {
+                    "accountId": "asgVcjZnWWRLWvv_GtyGuaxg",
+                    "channelName": "Photos",
+                    "cmd": "island",
+                    "name": "Unsplash",
+                    "robotJid": "v10r4uxexurcasg-pwh8hyh7sg@xmpp.zoom.us",
+                    "timestamp": 1560796234686,
+                    "toJid": "b1c841dc7b0b4as69287e6be05c7f93f25@conference.xmpp.zoom.us",
+                    "userId": "KdYKjnimT4asKPd8KKdQt9FQ",
+                    "userJid": "kdykjnimtas4kpd8kkdqt9fq@xmpp.zoom.us",
+                    "userName": "Jane Dev"
+                }
+            },
+            {
+                "event": "interactive_message_editable",
+                "payload": {
+                    "accountId": "gVcjZnWWRLWvv_GtyGuaxg",
+                    "channelName": "Jane Dev",
+                    "editItem": {
+                        "origin": "I am a message with editable text",
+                        "target": "I am a message with editable text that has been edited"
+                    },
+                    "messageId": "20190618205205291_tI1CUa6_aw1",
+                    "original": {
+                        "head": {
+                            "sub_head": {
+                                "text": "I am a sub header"
+                            },
+                            "text": "I am a header"
+                        },
+                        "body": [
+                            {
+                                "editable": true,
+                                "text": "I am a message with editable text",
+                                "type": "message"
+                            }
+                        ]
+                    },
+                    "robotJid": "v1m0yn1imztuogsxjje8fdew@xmpp.zoom.us",
+                    "timestamp": 1560891135776,
+                    "toJid": "kdykjnimt4kpd8kkdqt9fq@xmpp.zoom.us/robot_v1m0yn1imztuogsxjje8fdew@xmpp.zoom.us",
+                    "userId": "KdYKjnimT4KPd8KKdQt9FQ",
+                    "userJid": "kdykjnimt4kpd8kkdqt9fq@xmpp.zoom.us",
+                    "userName": "Jane Dev"
+                }
+            },
+            {
+                "event": "interactive_message_fields_editable",
+                "payload": {
+                    "accountId": "gVcjZnWWRLWvv_GtyGuaxg",
+                    "channelName": "Jane Dev",
+                    "fieldEditItem": {
+                        "currentValue": "",
+                        "key": "Title",
+                        "newValue": "Software Engineer"
+                    },
+                    "messageId": "20190618205323327_EZjIqCQ_aw1",
+                    "original": {
+                        "head": {
+                            "sub_head": {
+                                "text": "I am a sub header"
+                            },
+                            "text": "I am a header"
+                        },
+                        "body": [
+                            {
+                                "type": "fields",
+                                "items": [
+                                    {
+                                        "editable": true,
+                                        "value": " ",
+                                        "key": "Name"
+                                    },
+                                    {
+                                        "editable": true,
+                                        "value": " ",
+                                        "key": "Title"
+                                    },
+                                    {
+                                        "editable": false,
+                                        "value": "Zoom",
+                                        "key": "Company"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "robotJid": "v1m0yn1imztuogsxjje8fdew@xmpp.zoom.us",
+                    "timestamp": 1560891222018,
+                    "toJid": "kdykjnimt4kpd8kkdqt9fq@xmpp.zoom.us/robot_v1m0yn1imztuogsxjje8fdew@xmpp.zoom.us",
+                    "userId": "KdYKjnimT4KPd8KKdQt9FQ",
+                    "userJid": "kdykjnimt4kpd8kkdqt9fq@xmpp.zoom.us",
+                    "userName": "Jane Dev"
+                }
+            },
+            {
+                "event": "interactive_message_select",
+                "payload": {
+                    "accountId": "gVcjZnWWRLWvv_GtyGuaxg",
+                    "channelName": "Jane Dev",
+                    "messageId": "20190618205440879_sRHVqf4_aw1",
+                    "original": {
+                        "head": {
+                            "sub_head": {
+                                "text": "I am a sub header"
+                            },
+                            "text": "I am a header"
+                        },
+                        "body": [
+                            {
+                                "select_items": [
+                                    {
+                                        "text": "Lions",
+                                        "value": "lions"
+                                    },
+                                    {
+                                        "text": "Tigers",
+                                        "value": "tigers"
+                                    },
+                                    {
+                                        "text": "Bears",
+                                        "value": "bears"
+                                    }
+                                ],
+                                "text": "Animals",
+                                "type": "select"
+                            }
+                        ]
+                    },
+                    "robotJid": "v1m0yn1imztuogsxjje8fdew@xmpp.zoom.us",
+                    "selectedItems": [
+                        {
+                            "value": "lions"
+                        }
+                    ],
+                    "timestamp": 1560891284464,
+                    "toJid": "kdykjnimt4kpd8kkdqt9fq@xmpp.zoom.us/robot_v1m0yn1imztuogsxjje8fdew@xmpp.zoom.us",
+                    "userId": "KdYKjnimT4KPd8KKdQt9FQ",
+                    "userJid": "kdykjnimt4kpd8kkdqt9fq@xmpp.zoom.us",
+                    "userName": "Jane Dev"
+                }
+            },
+            {
+                "event": "interactive_message_actions",
+                "payload": {
+                    "accountId": "gVcjZnWWRLWvv_GtyGuaxg",
+                    "actionItem": {
+                        "text": "Add",
+                        "value": "add"
+                    },
+                    "channelName": "Jane Dev",
+                    "messageId": "20190618205516496_ynICmz8_aw1",
+                    "original": {
+                        "head": {
+                            "sub_head": {
+                                "text": "I am a sub header"
+                            },
+                            "text": "I am a header"
+                        },
+                        "body": [
+                            {
+                                "type": "actions",
+                                "items": [
+                                    {
+                                        "style": "Primary",
+                                        "text": "Add",
+                                        "value": "add"
+                                    },
+                                    {
+                                        "style": "Default",
+                                        "text": "Update",
+                                        "value": "update"
+                                    },
+                                    {
+                                        "style": "Danger",
+                                        "text": "Delete",
+                                        "value": "delete"
+                                    },
+                                    {
+                                        "style": "Disabled",
+                                        "text": "Disabled",
+                                        "value": "disable"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "robotJid": "v1m0yn1imztuogsxjje8fdew@xmpp.zoom.us",
+                    "timestamp": 1560891332219,
+                    "toJid": "kdykjnimt4kpd8kkdqt9fq@xmpp.zoom.us/robot_v1m0yn1imztuogsxjje8fdew@xmpp.zoom.us",
+                    "userId": "KdYKjnimT4KPd8KKdQt9FQ",
+                    "userJid": "kdykjnimt4kpd8kkdqt9fq@xmpp.zoom.us",
+                    "userName": "Jane Dev"
+                }
+            }
+        ]
+    },
+    {
+        "Meeting": []
+    },
+    {
+        "Recording": []
+    },
+    {
+        "User": []
+    },
+    {
+        "Webinar": []
+    },
+    {
+        "Zoom Room": [
+            {
+                "event": "zoomroom.alert",
+                "payload": {
+                    "account_id": "EPAbcdefyZslakjflP",
+                    "object": {
+                        "room_name": "MyFabulousZoomRoom",
+                        "issue": "Zoom room is offline",
+                        "id": "EbY5jzz2R5KVPn6ZY9wh0A",
+                        "calendar_name": "myemailforcalendarintegration@somedomain.com",
+                        "email": "myemailforzoomroom@somedomain.com"
+                    }
+                }
+            }
+        ]
     }
 ]
