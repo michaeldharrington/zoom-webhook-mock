@@ -42,7 +42,7 @@ class App extends Component {
             ))}
           </section>
         ))}
-        <footer>
+        <footer className="footer">
           @zoomus
         </footer>
       </div>

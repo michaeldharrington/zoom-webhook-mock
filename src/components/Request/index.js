@@ -19,7 +19,7 @@ const Request = props => {
     return (
         <div className={styles.request}>
             <div className={styles.requestHeader}>
-                <div className={styles.eventName}>{props.data.event.replace("."," ").replace("_", " ")}</div>
+                <div className={styles.eventName}>{props.data.event.replace("."," ").replace(/_/g, " ")}</div>
                 <RequestButton data={props.data} />
             </div>
             <div className={styles.payload}>
