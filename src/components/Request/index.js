@@ -3,10 +3,20 @@ import styles from './styles.module.css'
 
 import Highlight from 'react-highlight.js'
 
+function makePOST(url, data) {
+    fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+    })
+    .then(res => console.log(res))
+}
+
 const RequestButton = props => {
     const sendRequest = e => {
         e.preventDefault()
         console.log(props.data)
+        makePOST(props.url, props.data)
     }
     return (
         <button className={styles.requestButton} onClick={sendRequest}>
@@ -15,12 +25,12 @@ const RequestButton = props => {
     )
 }
 
-const Request = props => {
+export const Request = props => {
     return (
         <div className={styles.request}>
             <div className={styles.requestHeader}>
                 <div className={styles.eventName}>{props.data.event.replace("."," ").replace(/_/g, " ")}</div>
-                <RequestButton data={props.data} />
+                <RequestButton url={props.url} data={props.data} />
             </div>
             <div className={styles.payload}>
                 {/* <div>Payload:</div> */}
@@ -31,11 +41,3 @@ const Request = props => {
         </div>
     )
 }
-
-export const RequestList = props => (
-    <div className={styles.requestGrid}>
-        {props.events.map((event, index) => (
-            <Request data={event} key={index} />
-        ))}
-    </div>
-)

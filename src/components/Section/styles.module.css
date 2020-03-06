@@ -1,0 +1,44 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin: 8px 16px;
+}
+
+.event {
+  margin: 0px;
+}
+.header {
+  padding: 0 16px;
+  margin: 0 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header:hover {
+  opacity: 0.85;
+}
+
+.header>button {
+    margin: 0 2px 0 0;
+    height: 24px;
+    width: 24px;
+    outline: 0;
+    border: 0;
+}
+
+.eventTitle {
+  text-transform: capitalize;
+}
+
+button.active, button.hidden {
+    background: url("../../static/icons/arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.1s;
+    cursor: pointer;
+}
+button.hidden {
+    transform: rotate(-90deg);
+}

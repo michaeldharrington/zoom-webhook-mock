@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import './normalize.css'
 import './App.css';
-import { RequestList } from './components/Request';
 import { EndpointURL } from './components/EndpointURL';
 
 import Events from "./data/events.json";
 import Nav from './components/Nav';
+import Section from './components/Section';
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { view: 'Account' }
+    this.state = { 
+      view: 'Account',
+      endpoint: 'https://webhook.site/1e98d4e0-a744-4a77-838f-322ac2c1d019'    
+    }
     // this.handleChange = this.handleChange.bind(this)
   }
 
@@ -20,31 +23,23 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <h1 className="title">Send Test Zoom Events</h1>
-        {/* <p>
-          View: 
-          {this.state.view}
-        </p> */}
-        {/* <select id="event" value={this.state.view} onChange={this.handleChange}>
+        <div className="wrapper">
+          <h1 className="title">Send Test Zoom Events</h1>
+          <header className="header">
+            <EndpointURL />
+          </header>
           {Events.map((eventType, index) => (
-            <option className="option" value={Object.getOwnPropertyNames(eventType)} key={index}>{Object.getOwnPropertyNames(eventType)}</option>
+            <section className="Event" key={index}>
+              {/* make this a component with event prop and active state */}
+              {Object.values(eventType).map((event, index) => (
+                <Section url={this.state.endpoint} active={false} title={Object.getOwnPropertyNames(eventType)} events={event} path="test" key={index} />
+              ))}
+            </section>
           ))}
-        </select> */}
-        <header className="header">
-          <EndpointURL />
-        </header>
-
-        {Events.map((eventType, index) => (
-          <section className="Event" key={index}>
-            <h2 className="eventTitle">{Object.getOwnPropertyNames(eventType)} Events</h2>
-            {Object.values(eventType).map((event, index) => (
-              <RequestList events={event} path="test" key={index} />
-            ))}
-          </section>
-        ))}
-        <footer className="footer">
-          @zoomus
-        </footer>
+          <footer className="footer">
+            @zoomus
+          </footer>
+        </div>
       </div>
     );
   }

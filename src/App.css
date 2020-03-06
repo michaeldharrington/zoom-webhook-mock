@@ -10,49 +10,21 @@ html {
 .App {
   margin: auto;
   padding: 0;
-  max-width: 1024px;
+  /* max-width: 1024px; */
 }
 .App h1.title {
-  margin: 16px;
+  margin: 32px 16px;
 }
-/* 
-nav.nav {
-  display: flex;
+.App>.wrapper {
+  max-width: 1024px;
+  margin: 40px auto;
 }
-
-nav.nav {
-  display: flex;
-  align-items: center;
-z  justify-content: flex-end;
-  flex-wrap: wrap;
-  box-shadow: inset 0px -1px 0px #EDEDF4;
-  padding: 8px;
-  
-  height: 72px;
-  width: 100%;
-  max-width: 100%;
-  background: #ffffff;
-  flex: 1;
-  margin: 0;
-} */
 
 header.header {
   margin: 24px 16px;
   padding: 16px 0;
   border-top: 1px solid #DCDFE6;
   border-bottom: 1px solid #DCDFE6;
-}
-
-.Event {
-  margin: 0px 0 40px;
-}
-.Event>.eventTitle {
-  padding: 0 16px;
-  margin: 16px 0 0;
-}
-
-section>h2.eventTitle {
-  text-transform: capitalize;
 }
 
 select { 
