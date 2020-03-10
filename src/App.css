@@ -10,10 +10,12 @@ html {
 .App {
   margin: auto;
   padding: 0;
-  /* max-width: 1024px; */
 }
 .App h1.title {
-  margin: 32px 16px;
+  margin: 32px 16px 16px;
+}
+.description {
+  padding: 0 16px;
 }
 .App>.wrapper {
   max-width: 1024px;

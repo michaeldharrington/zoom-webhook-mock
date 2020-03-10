@@ -10,14 +10,14 @@ import Section from './components/Section';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { 
+    this.state = {
       view: 'Account',
-      endpoint: 'https://webhook.site/1e98d4e0-a744-4a77-838f-322ac2c1d019'    
+      endpoint: ''
     }
-    // this.handleChange = this.handleChange.bind(this)
+    this.handleChange = this.handleChange.bind(this)
   }
 
-  // handleChange(e) { this.setState({ view: e.target.value })}
+  handleChange(e) { this.setState({ endpoint: e.target.value }) }
 
   render() {
     return (
@@ -25,8 +25,11 @@ class App extends Component {
         <Nav />
         <div className="wrapper">
           <h1 className="title">Send Test Zoom Events</h1>
+          <p className="description">Use the options below to send sample requests </p>
           <header className="header">
-            <EndpointURL />
+            <EndpointURL
+              handleChange={this.handleChange}
+            />
           </header>
           {Events.map((eventType, index) => (
             <section className="Event" key={index}>
